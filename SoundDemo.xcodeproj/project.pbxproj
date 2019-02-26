@@ -13,6 +13,12 @@
 		C9F200C02222343B00B28881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F200BF2222343B00B28881 /* Assets.xcassets */; };
 		C9F200C32222343B00B28881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F200C12222343B00B28881 /* LaunchScreen.storyboard */; };
 		C9F200C62222343B00B28881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F200C52222343B00B28881 /* main.m */; };
+		C9F200D72222375A00B28881 /* sampleB.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9F200D52222375A00B28881 /* sampleB.aif */; };
+		C9F200D82222375A00B28881 /* sampleA.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9F200D62222375A00B28881 /* sampleA.aif */; };
+		C9F200E522236E2600B28881 /* Guitar.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9F200E122236E2600B28881 /* Guitar.aif */; };
+		C9F200E622236E2600B28881 /* Drum.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9F200E222236E2600B28881 /* Drum.aif */; };
+		C9F200E722236E2600B28881 /* SoCal.aif in Resources */ = {isa = PBXBuildFile; fileRef = C9F200E322236E2600B28881 /* SoCal.aif */; };
+		C9F200E822236E2600B28881 /* AntonModernHipHop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9F200E422236E2600B28881 /* AntonModernHipHop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		C9F200C22222343B00B28881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F200C42222343B00B28881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9F200C52222343B00B28881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9F200D52222375A00B28881 /* sampleB.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleB.aif; sourceTree = "<group>"; };
+		C9F200D62222375A00B28881 /* sampleA.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleA.aif; sourceTree = "<group>"; };
+		C9F200E122236E2600B28881 /* Guitar.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guitar.aif; sourceTree = "<group>"; };
+		C9F200E222236E2600B28881 /* Drum.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drum.aif; sourceTree = "<group>"; };
+		C9F200E322236E2600B28881 /* SoCal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = SoCal.aif; sourceTree = "<group>"; };
+		C9F200E422236E2600B28881 /* AntonModernHipHop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AntonModernHipHop.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +79,22 @@
 				C9F200C12222343B00B28881 /* LaunchScreen.storyboard */,
 				C9F200C42222343B00B28881 /* Info.plist */,
 				C9F200C52222343B00B28881 /* main.m */,
+				C9F200D02222362100B28881 /* sounds */,
 			);
 			path = SoundDemo;
+			sourceTree = "<group>";
+		};
+		C9F200D02222362100B28881 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C9F200D62222375A00B28881 /* sampleA.aif */,
+				C9F200D52222375A00B28881 /* sampleB.aif */,
+				C9F200E422236E2600B28881 /* AntonModernHipHop.mp3 */,
+				C9F200E222236E2600B28881 /* Drum.aif */,
+				C9F200E122236E2600B28881 /* Guitar.aif */,
+				C9F200E322236E2600B28881 /* SoCal.aif */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F200E622236E2600B28881 /* Drum.aif in Resources */,
+				C9F200E722236E2600B28881 /* SoCal.aif in Resources */,
 				C9F200C32222343B00B28881 /* LaunchScreen.storyboard in Resources */,
+				C9F200E822236E2600B28881 /* AntonModernHipHop.mp3 in Resources */,
+				C9F200D72222375A00B28881 /* sampleB.aif in Resources */,
+				C9F200E522236E2600B28881 /* Guitar.aif in Resources */,
 				C9F200C02222343B00B28881 /* Assets.xcassets in Resources */,
+				C9F200D82222375A00B28881 /* sampleA.aif in Resources */,
 				C9F200BE2222343900B28881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
